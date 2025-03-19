@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <!-- Hardcoded inline styles (bad practice) -->
+    <style>
+        body { background-color: #fff; color: #000; } 
+        h1 { font-size: 2rem; }
+    </style>
+    <!-- Missing meta description (SEO issue) -->
+</head>
+<body>
+    <!-- Missing alt attribute for accessibility issue -->
+    <img src="logo.png">
+
+    <!-- Inline JavaScript with potential security risk -->
+    <script>
+        const userInput = location.search.split('=')[1];
+        document.write("Hello " + userInput);  // Potential XSS vulnerability
+    </script>
+
+    <!-- Unclosed HTML tag (syntax issue) -->
+    <div>
+        <p>Welcome to my website
+</body>
+</html>

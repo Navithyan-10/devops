@@ -1,0 +1,15 @@
+body {
+  background: white; /* Hardcoded color - lacks flexibility */
+  font-size: 16px; /* No fallback font-size */
+}
+
+h1 {
+  color: red; /* Unscalable color choice */
+  text-transform: uppercase; /* Overuse of text styling */
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%; /* Possible layout breaking */
+  padding: 20px; /* Hardcoded padding values */
+}
